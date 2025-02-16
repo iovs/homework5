@@ -7,6 +7,6 @@ package adminka
 //- Файл //Возможность загрузки файла, не знаю какого типа поле
 
 type Adminka struct {
-	Import string
-	File   string
+	Import []string
+	File   []string
 }

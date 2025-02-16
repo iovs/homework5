@@ -22,5 +22,5 @@ type Order struct {
 	DateTime       time.Time
 	Price          int64
 	Status         string
-	DeliveryAdress string
+	deliveryAdress []string
 }
