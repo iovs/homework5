@@ -17,10 +17,10 @@ import "time"
 //- адрес доставки //не знаю получится сделать или нет, тк по уму там надо города списком выводить, подтягивать кладер адресов и городов (string)
 
 type Order struct {
-	OrderID             int64
-	OrderQuantity       int64
-	OrderDateTime       time.Time
-	OrderPrice          int64
-	OrderStatus         string
-	OrderDeliveryAdress string
+	ID             int64
+	Quantity       int64
+	DateTime       time.Time
+	Price          int64
+	Status         string
+	DeliveryAdress string
 }

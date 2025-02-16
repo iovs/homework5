@@ -7,7 +7,7 @@ package users
 //- Телефон (string)
 
 type User struct {
-	UserID    int64
-	userName  string
-	userPhone string
+	ID    int64
+	Name  string
+	Phone string
 }

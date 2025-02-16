@@ -11,11 +11,10 @@ package products
 //- описание товара (string)
 
 type Product struct {
-	ProductID         int64
-	ProductIDcategory int64
-	ProductName       string
-	ProductPictureUrl string
-	ProductPrice      int64
-	ProductQuantity   int64
-	ProductDescripion string
+	ID         int64
+	Name       string
+	PictureUrl string
+	Price      int64
+	Quantity   int64
+	Descripion string
 }
